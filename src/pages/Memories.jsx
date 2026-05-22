@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { useState } from "react";
 import vidioBunga from "../assets/videos/vidioBungadudu.mp4";
+import fotoKenangan from "../assets/images/couple.jpg";
 
 const Memories = ({ isIOS }) => {
   const [flowerBloom, setFlowerBloom] = useState(false);
@@ -13,13 +14,26 @@ const Memories = ({ isIOS }) => {
         transition={{ duration: 0.5 }}
         className="max-w-5xl w-full text-center"
       >
+        <h1 className="text-4xl font-bold text-pink-600 mb-8">
+          Kenangan Indah Kita
+        </h1>
+
+        <motion.div whileHover={{ scale: isIOS ? 1 : 1.02 }} className="mb-8">
+          <img
+            src={fotoKenangan}
+            alt="Kita Berdua"
+            className="w-full max-w-md mx-auto rounded-xl shadow-2xl border-4 border-white"
+            style={{ transform: "translateZ(0)" }}
+          />
+        </motion.div>
+
         <motion.div
           initial={{ y: 50, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ delay: 0.3 }}
           className="bg-white bg-opacity-90 backdrop-blur-sm p-6 rounded-xl shadow-lg mb-8 border border-pink-100"
         >
-           <h2 className="text-2xl font-semibold text-rose-600 mb-4">
+         <h2 className="text-2xl font-semibold text-rose-600 mb-4">
   Permintaan Maafku di Hari Ulang Tahunmu
 </h2>
 
@@ -54,6 +68,7 @@ const Memories = ({ isIOS }) => {
     🙏🏻 Maaf ya, dan makasih karena kamu tetap percaya sama aku.
   </motion.p>
 </div>
+
         </motion.div>
 
         <motion.button
