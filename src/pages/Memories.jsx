@@ -46,7 +46,28 @@ const Memories = ({ isIOS }) => {
     animate={{ opacity: 1, y: 0 }}
     transition={{ duration: 1, delay: 0.6 }}
   >
-   maaf yaa sayangg klo akuu blm bisaa ngasih yg terbaik buat kmuu, maaf klo aku egois, suka marah marah dan pengen diperhatiin trs sma kamuu, tpi aslinya aku sayang bgt sma kamu dan pgn ketemuu kamuu, smogaa kmuu bahagia sma aku yaa gantengkuu, i love you duniakuu❤️
+  Sayang, di hari ulang tahun km ini aku juga mau minta maaf kalau selama ini pernah bikin km kesel, kecewa, atau sedih karena sikap aku.
+  </motion.p>
+  <motion.p
+    initial={{ opacity: 0, y: 20 }}
+    animate={{ opacity: 1, y: 0 }}
+    transition={{ duration: 1, delay: 0.6 }}
+  >
+   Aku tau aku masih banyak kurangnya dan masih sering bikin salah. Makasih ya karena selama ini km selalu berusaha ngerti aku dan tetap sabar.
+  </motion.p>
+  <motion.p
+    initial={{ opacity: 0, y: 20 }}
+    animate={{ opacity: 1, y: 0 }}
+    transition={{ duration: 1, delay: 0.6 }}
+  >
+  Aku mau terus belajar jadi lebih baik lagi ke depannya. Semoga kita juga bisa sama-sama tumbuh jadi pribadi yang lebih dewasa.
+  </motion.p>
+  <motion.p
+    initial={{ opacity: 0, y: 20 }}
+    animate={{ opacity: 1, y: 0 }}
+    transition={{ duration: 1, delay: 0.6 }}
+  >
+  Happy birthday ya, sayang. Semoga semua yang km semogakan bisa terwujud, selalu sehat, bahagia, dan dikelilingi banyak hal baik. 🤍✨
   </motion.p>
   
 </div>
