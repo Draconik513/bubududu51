@@ -68,7 +68,7 @@ const HomePage = ({ isIOS }) => {
               mengucapkan... Terima kasih telah menjadi cahaya dalam hidupku.
               Setiap detik bersamamu adalah anugerah."
             </p>
-            <p className="mt-4 text-right text-pink-600 font-medium">- Bagus</p>
+            <p className="mt-4 text-right text-pink-600 font-medium">- FIRGY</p>
           </div>
         </motion.div>
 
